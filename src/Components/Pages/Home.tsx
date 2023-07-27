@@ -1,5 +1,6 @@
 import { Button } from "@mui/material";
 import { FC } from "react";
+import PhoneImage from "../UI-Component/PhoneImage";
 type P = object;
 const Home: FC<P> = () => {
   return (
@@ -10,6 +11,7 @@ const Home: FC<P> = () => {
         strategize, and compete in leagues. Pro 11 Club awaits!
       </p>
       <Button children="DOWNLOAD APP" variant="contained" sx={{ marginLeft: 10, marginRight: 10 }} />
+      <PhoneImage />
     </div>
   );
 };
