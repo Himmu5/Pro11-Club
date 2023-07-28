@@ -2,6 +2,7 @@ import { FC } from 'react'
 import Player from '../../../public/Player.png'
 import Ball from '../../../public/ball.png'
 import Star from '../../../public/Star.png'
+import EPhone from '../../../public/ePhone.png'
 import ExperienceMapper from '../UI-Component/ExperienceMapper'
 
 
@@ -17,9 +18,12 @@ const Experience: FC<P> = () => {
                 <img src={Star} alt="Star" />
             </div>
         </div>
-        <h1 className='text-xl text-center mt-8 text-[#111111] sm:text-4xl font-bold '>Unleash the amazing Gaming Experience</h1>
+        <h1 className='text-2xl text-center mt-8 text-[#111111] sm:text-4xl font-bold '>Unleash the amazing Gaming Experience</h1>
         <div className='flex justify-center'>
             <ExperienceMapper />
+        </div>
+        <div>   
+            <img src={EPhone} alt="EPhone" />
         </div>
     </>
 }

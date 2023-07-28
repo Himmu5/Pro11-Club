@@ -1,18 +1,14 @@
 @tailwind base;
 
 Ex-mapper::-webkit-scrollbar {
-    width: 100px;
+  width: 100px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: "black";
-    border-radius: 14px;
-    border: 3px solid white;
-  }
-
-  
+  background-color: "black";
+  border-radius: 14px;
+  border: 3px solid white;
+}
 
 @tailwind components;
 @tailwind utilities;
-
-
