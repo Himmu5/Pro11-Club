@@ -21,9 +21,9 @@ const WitnessGaming: FC<P> = () => {
         <img src={Star} alt="Star" className='h-24 self-end' />
         <h1 className='font-bold text-3xl text-center '>Witness the Power of Mobile Fantasy Gaming!</h1>
         <div className='flex gap-12 mt-10 w-full overflow-auto px-4 no-scrollbar '>
-                {
-                    images.map((img) => <img alt='images' className=' h-32 w-40 object-cover rounded-xl shadow-md shadow-gray-400 ' src={img} />)
-                }
+            {
+                images.map((img) => <img alt='images' className=' h-32 w-40 object-cover rounded-xl shadow-md shadow-gray-400 ' src={img} />)
+            }
         </div>
 
         <div>

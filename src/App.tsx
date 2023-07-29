@@ -1,3 +1,4 @@
+import ConnectingFans from "./Components/Pages/ConnectingFans"
 import ElevateExperience from "./Components/Pages/ElevateExperience"
 import Experience from "./Components/Pages/Experience"
 import FantasyCricket from "./Components/Pages/FantasyCricket"
@@ -15,6 +16,7 @@ function App() {
       <ElevateExperience />
       <FantasyCricket />
       <WitnessGaming />
+      <ConnectingFans />
     </>
   )
 }
