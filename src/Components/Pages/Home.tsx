@@ -10,8 +10,8 @@ const Home: FC<P> = () => {
 
   return (
     <div className="flex flex-col p-2 text-center gap-1 sm:flex-row items-center sm:text-left sm:max-w-7xl sm:mx-auto sm:mx-4">
-      <div className="flex flex-col gap-3 sm:w-1/2 sm:pt-6">
-        <div className="flex flex-col text-3xl md:text-4xl sm:max-w-xl font-outline font-bold " > <p>Dominate The Fantasy</p> <p>Cricket Arena.</p> </div>
+      <div className="flex flex-col gap-3 sm:w-1/2 sm:pt-6 ">
+        <div className="flex flex-col text-3xl md:text-6xl sm:max-w-xl font-outline font-bold " > <p>Dominate The Fantasy</p> <p>Cricket Arena.</p> </div>
         <p className="text-sm">
           Indulge in captivating fantasy cricket. Build your dream team,
           strategize, and compete in leagues. Pro 11 Club awaits!

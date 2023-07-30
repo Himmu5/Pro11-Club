@@ -6,13 +6,13 @@ import Ball from '../../../public/BigBall.svg'
 type P = object
 
 const ElevateExperience: FC<P> = () => {
-    return <div className='text-center flex flex-col items-center py-10 px-2'>
+    return <div className='text-center flex flex-col sm:flex-row-reverse items-center py-10 px-2'>
         <img src={Star1} alt="Star1" className=' self-start py-4 ' />
-        <div className='flex flex-col gap-5'>
+        <div className='flex flex-col gap-5 '>
             <h1 className='flex flex-col'> <span className='text-3xl sm:text-4xl font-bold '> Elevate Your </span><span className='text-2xl font-bold'> Cricket Fantasy Experience</span> </h1>
             <p className=''>Take your cricket fantasy journey to new heights with Pro 11 Club, where excitement knows no bounds.</p>
         </div>
-        <div className='flex flex-col relative'>
+        <div className='flex flex-col relative sm:w-2/3'>
             <img src={Star2} alt="Star2" className='self-end absolute  -mr-6 ' />
             <img src={Ball} className=' h-64 mt-8 ' alt="Ball" />
         </div>
