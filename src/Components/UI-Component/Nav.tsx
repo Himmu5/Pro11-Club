@@ -1,6 +1,6 @@
 import { Box, Button, Dialog, Typography } from "@mui/material";
 import { FC, useState } from "react";
-import Logo from "../../../public/logo.png";
+import Logo from "../../../public/LogoSVG.svg";
 import Hamburger from "hamburger-react";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { motion } from "framer-motion";
@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 type P = object;
 
 const Nav: FC<P> = () => {
-  const matches = useMediaQuery("(min-width:600px)");
+  const matches = useMediaQuery("(min-width : 600px)");
   const [open, setOpen] = useState(false);
   const toggleHam = () => {
     setOpen(!open);
@@ -23,12 +23,22 @@ const Nav: FC<P> = () => {
       position={"relative"}
       alignItems={"center"}
     >
-      <img src={Logo} style={{ height: 30, width: 40 }} alt="logo" />
-      <Typography variant="h6" children="Pro 11 Club" />
+      <div className="flex items-center gap-4">
+        <img src={Logo} style={{ height: 30, width: 40 }} alt="logo" />
+        <Typography variant="h6" children="Pro 11 Club" />
+      </div>
+
+      <div className="sm:flex items-center gap-8 hidden ">
+        <p>Home</p>
+        <p>FAQs</p>
+        <p>About Us</p>
+        <p>Contact Us</p>
+      </div>
+      <Button children="Download Now" variant="contained"  sx={{ display: matches ===  false ? "none" : "flex"  }}/>
       <motion.div hidden={matches} className="relative z-10" onTap={toggleHam}>
         <Hamburger size={20} toggled={open} />
       </motion.div>
-      
+
       <Dialog
         fullScreen
         open={open}
