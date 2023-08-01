@@ -29,7 +29,7 @@ const Nav: FC<P> = () => {
           <Typography variant="h6" children="Pro 11 Club" />
         </div>
 
-        <div className="sm:flex items-center gap-8 hidden ">
+        <div className="sm:flex items-center gap-8 hidden font-bold text-primary">
           <p>Home</p>
           <p>FAQs</p>
           <p>About Us</p>
@@ -66,15 +66,16 @@ const Nav: FC<P> = () => {
 
           <Box
             display={"flex"}
+            fontWeight={20}
             flexDirection={"column"}
             gap={5}
             marginTop={10}
             alignItems={"center"}
           >
-            <Typography variant="h5" children="Home" />
-            <Typography variant="h5" children="FAQ's" />
-            <Typography variant="h5" children="About Us" />
-            <Typography variant="h5" children="Contact Us" />
+            <Typography variant="h4" children="Home" />
+            <Typography variant="h4" children="FAQ's" />
+            <Typography variant="h4" children="About Us" />
+            <Typography variant="h4" children="Contact Us" />
             <Button children="Download App" size="large" variant="contained" style={{ backgroundColor: "#222229" }} />
           </Box>
         </Dialog>
