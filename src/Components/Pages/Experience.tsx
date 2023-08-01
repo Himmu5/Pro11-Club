@@ -10,10 +10,10 @@ type P = object
 
 const Experience: FC<P> = () => {
     return <>
-        <div className='sm:flex '>
+        <div className='sm:flex sm:items-center max-w-7xl mx-auto'>
             <div className='flex items-center justify-between sm:w-full'>
                 <div className='pt-10 '>
-                    <img src={Ball} alt='Ball' className=' absolute sm:flex left-24 mt-8' />
+                    <img src={Ball} alt='Ball' className=' absolute sm:flex left-56 mt-24 ' />
                     <img src={Player} alt="Player" className='relative  ' />
                 </div>
                 <div className=' sm:hidden mt-8 mr-6'>
@@ -22,11 +22,14 @@ const Experience: FC<P> = () => {
             </div>
             <h1 className='text-2xl text-center mt-8 text-[#111111] sm:text-5xl font-bold '>Unleash the amazing Gaming Experience</h1>
         </div>
-        <div className='flex justify-center'>
-            <ExperienceMapper />
-        </div>
-        <div>
-            <img src={EPhone} alt="EPhone" />
+        <div className='sm:flex sm:items-center  sm:justify-center max-w-7xl mx-auto'>
+            <div className='flex w-full '>
+                <ExperienceMapper />
+            </div>
+            <div className='sm:w-2/3'>
+                <img src={EPhone} alt="EPhone" />
+            </div>
+
         </div>
     </>
 }
