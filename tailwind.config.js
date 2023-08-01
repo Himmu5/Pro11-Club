@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       color: {
-        primary: "#32313B",
+        primary: "#111111"
       },
       fontFamily: {
         outline: ["Outfit", "sans-serif"],
