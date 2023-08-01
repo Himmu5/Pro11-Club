@@ -29,7 +29,7 @@ const Nav: FC<P> = () => {
           <Typography variant="h6" children="Pro 11 Club" />
         </div>
 
-        <div className="sm:flex items-center gap-8 hidden font-bold text-primary">
+        <div className="sm:flex items-center gap-8 hidden font-bold text-primary cursor-pointer">
           <p>Home</p>
           <p>FAQs</p>
           <p>About Us</p>
