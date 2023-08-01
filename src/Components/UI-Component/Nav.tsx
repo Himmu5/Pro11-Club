@@ -15,7 +15,7 @@ const Nav: FC<P> = () => {
   };
 
   return (
-    <div className="sticky bg-white z-20 top-0 w-full ">
+    <div className="sticky bg-white opacity-90 z-20 top-0 w-full ">
       <Box
         display={"flex"}
         justifyContent={"space-between"}
