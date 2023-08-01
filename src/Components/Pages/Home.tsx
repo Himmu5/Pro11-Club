@@ -9,7 +9,7 @@ const Home: FC<P> = () => {
   const matches = useMediaQuery("(min-width : 600px)");
 
   return (
-    <div className="flex flex-col p-2 text-center gap-1 sm:flex-row items-center sm:text-left sm:max-w-7xl sm:mx-auto sm:mx-4 max-w-6xl mx-auto">
+    <div className="flex flex-col p-2 text-center gap-1 sm:flex-row items-center sm:text-left sm:max-w-7xl sm:mx-auto max-w-6xl mx-auto">
       <div className="flex flex-col gap-3 sm:w-1/2 sm:pt-6 ">
         <div className="flex flex-col text-3xl md:text-6xl sm:max-w-xl font-outline font-bold " > <p>Dominate The Fantasy</p> <p>Cricket Arena.</p> </div>
         <p className="text-sm">
