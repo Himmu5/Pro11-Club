@@ -10,15 +10,17 @@ import Nav from "./Components/UI-Component/Nav"
 function App() {
 
   return (
-    <>  
+    <>
       <Nav />
-      <Home />
-      <Experience />
-      <ElevateExperience />
-      <FantasyCricket />
-      <WitnessGaming />
-      <ConnectingFans />
-      <Footer />
+      <div className="max-w-7xl mx-auto ">
+        <Home />
+        <Experience />
+        <ElevateExperience />
+        <FantasyCricket />
+        <WitnessGaming />
+        <ConnectingFans />
+        <Footer />
+      </div>
     </>
   )
 }
