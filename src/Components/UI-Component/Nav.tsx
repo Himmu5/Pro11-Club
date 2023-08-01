@@ -45,7 +45,7 @@ const Nav: FC<P> = () => {
           fullScreen
           open={open}
           onClose={toggleHam}
-          className="text-primary"
+          style={ { backgroundColor: "#E4E4E4" }}
         >
           <Box className="flex justify-between" padding={2} display={"flex"}>
             <div></div>
