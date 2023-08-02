@@ -18,7 +18,7 @@ const Home: FC<P> = () => {
         </p>
         <Button children="DOWNLOAD APP" endIcon={<ArrowForwardIcon />} variant="contained" style={{ backgroundColor: "#222229" }} sx={{ paddingLeft: 1, paddingRight: 2, alignSelf: matches === true ? "start" : "center" }} />
       </div>
-      <div className="sm:w-1/2 sm:h-1/3">
+      <div className="sm:w-1/2 sm:h-1/3 ">
         <PhoneImage />
       </div>
     </div>
