@@ -2,7 +2,7 @@ import { FC } from 'react'
 import Player from '../../../public/Player.svg'
 import Ball from '../../../public/ball.png'
 import Star from '../../../public/Star.png'
-import EPhone from '../../../public/ePhone.png'
+import EPhone from '../../../public/Phone.svg'
 import ExperienceMapper from '../UI-Component/ExperienceMapper'
 import ResponsiveExperienceMapper from '../UI-Component/ResponsiveExperienceMapper'
 import { useMediaQuery } from '@mui/material'
@@ -29,7 +29,7 @@ const Experience: FC<P> = () => {
             <div className='flex w-full '>
                 { size === true ? <ResponsiveExperienceMapper /> : <ExperienceMapper />}
             </div>
-            <div className='sm:w-2/3'>
+            <div className='sm:w-2/3 sm:h-full'>
                 <img src={EPhone} alt="EPhone" />
             </div>
         </div>
