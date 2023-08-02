@@ -15,7 +15,7 @@ const Nav: FC<P> = () => {
   };
 
   return (
-    <div className="sticky bg-white opacity-90 z-30 top-0 w-full ">
+    <div className="sticky bg-white bg-transparent z-30 top-0 w-full ">
       <Box
         display={"flex"}
         justifyContent={"space-between"}
@@ -24,12 +24,12 @@ const Nav: FC<P> = () => {
         position={"relative"}
         alignItems={"center"}
       >
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 ">
           <img src={Logo} style={{ height: 30, width: 40 }} alt="logo" />
-          <Typography variant="h6" children="Pro 11 Club" />
-        </div>
+          <h1 className="font-bold text-xl" children="Pro 11 Club" />
+        </div> 
 
-        <div className="sm:flex items-center gap-8 hidden font-bold text-primary cursor-pointer">
+        <div className="sm:flex items-center gap-16 hidden font-bold text-primary text-2xl cursor-pointer">
           <p>Home</p>
           <p>FAQs</p>
           <p>About Us</p>
