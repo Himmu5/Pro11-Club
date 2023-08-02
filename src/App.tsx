@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Nav />
-      <div className="max-w-7xl mx-auto ">
+      <div className=" max-w-7xl mx-auto text-primary ">
         <Home />
         <Experience />
         <ElevateExperience />
