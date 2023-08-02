@@ -29,7 +29,6 @@ const Experience: FC<P> = () => {
             <div className='sm:w-2/3'>
                 <img src={EPhone} alt="EPhone" />
             </div>
-
         </div>
     </>
 }

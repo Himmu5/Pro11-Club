@@ -17,13 +17,28 @@ Ex-mapper::-webkit-scrollbar {
   @variants responsive {
     /* Hide scrollbar for Chrome, Safari and Opera */
     .no-scrollbar::-webkit-scrollbar {
-        display: none;
+      display: none;
     }
 
     /* Hide scrollbar for IE, Edge and Firefox */
     .no-scrollbar {
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
     }
+    .custom-scrollbar::-webkit-scrollbar {
+      background: white;
+      border: solid gray 2px;
+      border-radius: 25px;
+      margin: 10px;
+      scrollbar-color: blue;
+      width: 25px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #191d44;
+      padding: 2px;
+      width: 200px;
+      margin: 10px;
+    }
+    
   }
 }
