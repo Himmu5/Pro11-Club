@@ -6,20 +6,22 @@ import EPhone from '../../../public/Phone.svg'
 import ExperienceMapper from '../UI-Component/ExperienceMapper'
 import ResponsiveExperienceMapper from '../UI-Component/ResponsiveExperienceMapper'
 import { useMediaQuery } from '@mui/material'
+import { motion } from 'framer-motion'
 
 
 type P = object
 
 const Experience: FC<P> = () => {
     const size = useMediaQuery("(min-width : 600px)");
+    
     return <>
         <div className='sm:flex sm:items-center max-w-7xl mx-auto'>
             <div className='flex items-center justify-between sm:w-1/2'>
                 <div className='pt-10 w-2/3 '>
-                    <img src={Ball} alt='Ball' className=' absolute sm:flex left-56 mt-24 ' />
+                    <motion.div whileInView={{ opacity: 1, x : -200 , y : 70  ,  transition : { duration : 1.5 } } } ><motion.img src={Ball} alt='Ball' className=' absolute sm:flex left-96 top-6 sm:top-0 -mr-96 ' /></motion.div>
                     <img src={Player} alt="Player" className='relative  ' />
                 </div>
-                <div className=' sm:invisible sm:w-0 mt-8 mr-6'>
+                <div className=' sm:invisible sm:w-0 mt-8 mr-6 '>
                     <img src={Star} alt="Star" />
                 </div>
             </div>
@@ -27,7 +29,7 @@ const Experience: FC<P> = () => {
         </div>
         <div className='sm:flex sm:items-center  sm:justify-center max-w-7xl mx-auto'>
             <div className='flex w-full '>
-                { size === true ? <ResponsiveExperienceMapper /> : <ExperienceMapper />}
+                {size === true ? <ResponsiveExperienceMapper /> : <ExperienceMapper />}
             </div>
             <div className='sm:w-2/3 sm:h-full'>
                 <img src={EPhone} alt="EPhone" />
