@@ -28,7 +28,7 @@ const Experience: FC<P> = () => {
             </div>
             <h1 className='text-3xl text-center sm:text-left mt-8 text-[#111111] sm:text-5xl font-bold flex flex-col '><span> Unleash the amazing </span><span>Gaming Experience</span></h1>
         </div>
-        <div className='sm:flex sm:items-center  sm:justify-center max-w-7xl mx-auto'>
+        <div className='sm:flex sm:items-center  sm:justify-center m-5'>
             <div className='flex w-full '>
                 {sm === true ? <ResponsiveExperienceMapper /> : <ExperienceMapper />}
             </div>
