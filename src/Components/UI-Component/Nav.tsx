@@ -15,11 +15,11 @@ const Nav: FC<P> = () => {
   };
 
   return (
-    <div className="sticky bg-white bg-transparent z-30 top-0 w-full ">
+    <div className="sticky  bg-transparent z-30 top-0 w-full ">
       <Box
         display={"flex"}
         justifyContent={"space-between"}
-        padding={2}
+        padding={3}
         fontStyle={"primary"}
         position={"relative"}
         alignItems={"center"}
@@ -29,7 +29,7 @@ const Nav: FC<P> = () => {
           <h1 className="font-bold text-xl" children="Pro 11 Club" />
         </div> 
 
-        <div className="sm:flex items-center gap-16 hidden font-bold text-primary text-2xl cursor-pointer">
+        <div className="sm:flex items-center gap-16 hidden font-bold text-primary text-xl cursor-pointer">
           <p>Home</p>
           <p>FAQs</p>
           <p>About Us</p>
