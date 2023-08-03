@@ -1,6 +1,7 @@
 import { Button } from "@mui/material";
 import { FC } from "react";
 import PhoneImage from "../UI-Component/PhoneImage";
+import Start from '../../../public/Star1.png'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import useMediaQuery from "@mui/material/useMediaQuery";
 
@@ -11,6 +12,9 @@ const Home: FC<P> = () => {
   return (
     <div className="flex flex-col p-2 text-center gap-1 sm:flex-row items-center sm:text-left sm:max-w-7xl sm:mx-auto max-w-6xl mx-auto">
       <div className="flex flex-col gap-3 sm:w-1/2 sm:pt-6 ">
+        <div><img src={Start} alt="Start" className=" md:top-36 md:h-16 absolute " /></div>
+        <div className="absolute h-20 w-20 sm:h-40 hidden sm:flex rounded-full sm:w-28 bg-blue-300 blur-2xl top-28 self-end"></div>
+        <div className="absolute h-20 w-20 sm:h-40 hidden sm:flex rounded-full sm:w-28 bg-blue-300 blur-2xl top-28 self-end"></div>
         <div className="flex flex-col text-3xl md:text-5xl sm:max-w-xl font-outline font-bold " > <p>Dominate The Fantasy</p> <p>Cricket Arena.</p> </div>
         <p className="text-sm md:text-xl">
           Indulge in captivating fantasy cricket. Build your dream team,
