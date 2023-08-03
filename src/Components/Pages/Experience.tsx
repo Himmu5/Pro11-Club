@@ -16,7 +16,7 @@ const Experience: FC<P> = () => {
     const md = useMediaQuery("(min-width : 1080px)");
     
     return <>
-        <div className='sm:flex sm:items-center max-w-7xl mx-auto'>
+        <div className='sm:flex sm:items-center max-w-7xl mx-auto '>
             <div className='flex items-center justify-between sm:w-1/2'>
                 <div className='pt-10 w-2/3 '>
                     <motion.div whileInView={{ opacity: 1, x : md === true ? -80 :-200 , y :  md === true  ? 140 :70  ,  transition : { duration : 1.5 } } } ><motion.img src={Ball} alt='Ball' className=' absolute sm:flex left-96 -mr-96 ' /></motion.div>
