@@ -33,7 +33,7 @@ const Nav: FC<P> = () => {
 
         <div className="sm:flex items-center gap-16 hidden font-bold text-primary text-xl cursor-pointer">
           <Link to="Home" smooth duration={500}>Home</Link>
-          <p>FAQs</p>
+          <Link to="Footer" smooth duration={500}>FAQs</Link>
           <p>About Us</p>
           <p>Contact Us</p>
         </div>

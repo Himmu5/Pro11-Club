@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 
 type P = object
 const Footer: FC<P> = () => {
-    return <div className=''>
+    return <div  name="Footer">
         {/* <Fade bottom> */}
             <div className='relative flex flex-col items-center  '>
                 <Fade top>
