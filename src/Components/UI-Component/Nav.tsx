@@ -10,6 +10,7 @@ type P = object;
 const Nav: FC<P> = () => {
   const matches = useMediaQuery("(min-width : 600px)");
   const [open, setOpen] = useState(false);
+  
   const toggleHam = () => {
     setOpen(!open);
   };
