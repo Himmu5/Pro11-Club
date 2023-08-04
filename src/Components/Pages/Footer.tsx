@@ -16,7 +16,7 @@ const Footer: FC<P> = () => {
                         return <div key={item} className='flex backdrop-blur-sm flex-col py-2 min-w-[250px] px-4 space-y-3 w-64  border-2 border-[#111111] rounded-2xl'>
                             <div className='text-white p-1 bg-[#111111] self-start rounded-full '>
                                 <BsQuote />
-                            </div>
+                            </div>  
                             <h1>What is Fantasy Sport?</h1>
                             <p className='text-sm '>
                                 Fantasy sports is a competitive online game where participants create virtual teams composed of real-life athletes from various sports. Players earn points based on the performance of their selected athletes in actual sporting events. Fantasy sports allow fans to showcase their knowledge, strategy, and passion for sports while competing against others for prizes or bragging rights.
