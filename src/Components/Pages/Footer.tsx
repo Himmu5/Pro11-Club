@@ -9,9 +9,11 @@ import Fade from 'react-reveal/Fade';
 type P = object
 const Footer: FC<P> = () => {
     return <div className=''>
-        <Fade bottom>
+        {/* <Fade bottom> */}
             <div className='relative flex flex-col items-center  '>
-                <img src={BigBall} alt="ball" className='absolute h-full self-center w-full ' />
+                <Fade top>
+                    <img src={BigBall} alt="ball" className='absolute h-full self-center w-full ' />
+                </Fade>
                 <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold'>FAQs</h1>
                 <div className='relative z-20 flex overflow-scroll gap-4 w-full sm:h-[520px] px-2 py-16 no-scrollbar border-b-2 border-black'>
                     {
@@ -29,7 +31,7 @@ const Footer: FC<P> = () => {
                     }
                 </div>
             </div>
-        </Fade>
+        {/* </Fade> */}
         <div className='flex flex-col items-center py-10 '>
             <div className='flex gap-4'>
                 <img src={Logo} alt="Logo" />
