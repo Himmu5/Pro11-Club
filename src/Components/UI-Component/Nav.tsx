@@ -4,6 +4,7 @@ import Logo from "../../../public/LogoSVG.svg";
 import Hamburger from "hamburger-react";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 type P = object;
 
@@ -31,7 +32,7 @@ const Nav: FC<P> = () => {
         </div> 
 
         <div className="sm:flex items-center gap-16 hidden font-bold text-primary text-xl cursor-pointer">
-          <p>Home</p>
+          <Link to="Home" smooth duration={500}>Home</Link>
           <p>FAQs</p>
           <p>About Us</p>
           <p>Contact Us</p>
