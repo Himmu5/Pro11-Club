@@ -11,7 +11,7 @@ const Footer: FC<P> = () => {
     return <div  name="Footer">
         {/* <Fade bottom> */}
             <div className='relative flex flex-col items-center  '>
-                <Fade top>
+                <Fade top duration={2 * 1000}>
                     <img src={BigBall} alt="ball" className='absolute h-full self-center w-full ' />
                 </Fade>
                 <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold'>FAQs</h1>
