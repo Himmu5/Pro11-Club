@@ -5,6 +5,7 @@ import Hamburger from "hamburger-react";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+import { Link as RouterLink } from 'react-router-dom' 
 
 type P = object;
 
@@ -26,15 +27,15 @@ const Nav: FC<P> = () => {
         position={"relative"}
         alignItems={"center"}
       >
-        <div className="flex items-center gap-4 ">
+        <RouterLink to={"/"} className="flex items-center gap-4 ">
           <img src={Logo} style={{ height: 30, width: 40 }} alt="logo" />
           <h1 className="font-bold text-xl" children="Pro 11 Club" />
-        </div> 
+        </RouterLink> 
 
         <div className="sm:flex items-center gap-16 hidden font-bold text-primary text-xl cursor-pointer">
           <Link to="Home" smooth duration={500}>Home</Link>
           <Link to="Footer" smooth duration={500}>FAQs</Link>
-          <p>About Us</p>
+          <RouterLink to="/About">About Us</RouterLink>
           <p>Contact Us</p>
         </div>
         <Button children="Download Now" variant="contained" sx={{ display: matches === false ? "none" : "flex" }} style={{ backgroundColor: "#222229" }} className="bg-primary" />

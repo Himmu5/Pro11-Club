@@ -12,7 +12,7 @@ function App() {
       <Nav />
       <div className=" max-w-7xl mx-auto text-primary ">
         <Routes >
-          <Route element={<Main />} path="/Main" />
+          <Route element={<Main />} path="/" />
           <Route element={<AboutUs />} path="/About" />
         </Routes>
         <Footer />
