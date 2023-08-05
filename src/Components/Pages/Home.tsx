@@ -11,6 +11,7 @@ const Home: FC<P> = () => {
   const matches = useMediaQuery("(min-width : 600px)");
 
   return (
+    // Some Changes in Typing for div
     <div name="Home" >
       <Fade bottom >
         <div className="flex flex-col p-2 text-center gap-1 sm:flex-row items-center sm:text-left sm:max-w-7xl sm:mx-auto max-w-6xl mx-auto">
