@@ -9,7 +9,6 @@ import Fade from 'react-reveal/Fade';
 type P = object
 const Footer: FC<P> = () => {
     return <div  name="Footer">
-        {/* <Fade bottom> */}
             <div className='relative flex flex-col items-center  '>
                 <Fade top duration={2 * 1000}>
                     <img src={BigBall} alt="ball" className='absolute h-full self-center w-full ' />
@@ -31,7 +30,6 @@ const Footer: FC<P> = () => {
                     }
                 </div>
             </div>
-        {/* </Fade> */}
         <div className='flex flex-col items-center py-10 '>
             <div className='flex gap-4'>
                 <img src={Logo} alt="Logo" />
