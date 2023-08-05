@@ -1,5 +1,10 @@
 import { FC } from 'react'
 import BattingPoints from '../../../public/BattingPoints.svg'
+import BowlingPoint from '../../../public/BowlingPoint.svg'
+import FieldingPoint from '../../../public/FieldingPoint.svg'
+import EconomyRate from '../../../public/EconomyRate.svg'
+import StrikeRate from '../../../public/StrikeRate.svg'
+import Other from '../../../public/Other.svg'
 
 
 type P = object
@@ -89,9 +94,94 @@ const AboutUs: FC<P> = () => {
             <div className='border border-gray-700 rounded-xl p-3'>
                 <h1 className='flex flex-col text-black'> <span className='text-4xl'>T20</span> <span className='text-2xl'>Batting points:</span></h1>
                 <img src={BattingPoints} alt="BattingPoints" className='w-full py-4' />
+                <div>
+                    <h1 className='text-3xl text-black'>Note:</h1>
+                    <p className='pt-8 pb-5'>
+                        1. If a player scores a century, he/she will get bonus points only for the century and not for the 30-runs and half-century. Similarly, if he/she scores a half-century, the 30-run bonus will be not applicable.
+                        2. If there are overthrow runs, the points for the runs will be awarded to the player. But, if there is a boundary in overthrows, the player will not get any points for it.
+                        3. The points for dismissal for a duck will only be deducted in the case of batters, all-rounders and wicket keepers. No points will be deducted in case of bowlers.
+                    </p>
+                </div>
 
-                <h1 className='text-3xl text-black'>Note:</h1>
+                <div>
+                    <h1 className='text-2xl text-black '>Bowling points:</h1>
+                    <img src={BowlingPoint} alt="Bowling Point" className='w-full ' />
+                    <div className='py-4'>
+                        <p className=''>
+                            Note: 1. If a player gets a 5-wicket haul, he/she will be awarded bonus points only for the 5-wicket haul and not the 3-wicket haul or 4-wicket haul. Similarly, for a 4-wicket haul, he/she will not be awarded any points for the 3-wicket haul.
+                        </p>
+                        <p>
+                            2. A ball will be considered as dot ball if there is no increase in the total score of the batting team. If there is a bye or leg-bye, it will not be considered as a dot ball.
+                        </p>
+                        <p>
+                            3. If a no-ball is a dot ball, the player will not receive any dot ball bonus for that ball. But, if the free hit ball is a dot-ball, he/she will be awarded the dot ball points for the free hit ball.
+                        </p>
+                        <p>
+                            4. The last 4 overs of the T-20 match will be considered as death overs.
+                        </p>
+                    </div>
 
+                    <div>
+                        <h1 className='text-2xl text-black '>Fielding points:</h1>
+                        <img src={FieldingPoint} alt="Fielding Point" className='w-full ' />
+                        <div className='py-3'>
+                            <p>
+                                1. Direct hit is considered only when the ball is touched by one fielder after the batter faces the delivery. In any other case the points will be split between the thrower and the fielder receiving the throw before inflicting the run-out.
+                            </p>
+                            <p>
+                                2. In case more than 2 fielders are involved in case of a run-out, the points will be awarded to the last two fielders involved in inflicting the run-out.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h1 className='text-2xl text-black text-start'><span> Economy-rate points</span><span> (Minimum 2 overs bowled):</span></h1>
+                        <img src={EconomyRate} alt="Economy Rate" className='py-3 w-full ' />
+                    </div>
+
+                    <div>
+                        <h1 className='text-2xl text-black text-start'><span> Strike-rate points</span><span> (Minimum 10 balls faced):</span></h1>
+                        <img src={StrikeRate} alt="Strike Rate" className='py-3' />
+                        <p className=''>Note: 1. Negative points for below 100 strike rates are not applicable for bowlers.</p>
+                    </div>
+                    <div>
+                        <h1 className='text-2xl text-black text-start'>Others:</h1>
+                        <img src={Other} alt="Other" className='py-3 w-full' />
+                        <div className='py-3'>
+                            <p>
+                                Note: 1. Here, 2x means that if a player is selected as the Captain of the fantasy team, he/she will be awarded 2 times the points scored by him/her. Similarly, in case of Vice-Captain and Ace Players, the multiplication factor will 1.5 and 1.25 respectively.
+                            </p>
+                            <p>
+                                2. You can select 3 Ace Players for your fantasy team. The multiplication factor for the points scored by all 3 Ace Players will be the same, i.e. 1.25 times the points scored by them.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <h1 className='text-2xl text-black text-start'>Other Important Points:</h1>
+                        <img src={Other} alt="Other" className='py-3 w-full' />
+                        <div className='py-3'>
+                            <p>
+                                1. Concussion, X-factor substitutes (Big Bash League) and Covid-19 substitutes will be awarded points for their contribution in the game. However, they will not receive any points (4 points) for being in the lineup. Also, the player being substituted will get points for both being in the starting lineup and for his/her contribution.
+                            </p>
+                            <p>
+                                2. No points will be awarded for contributions by the players in the Super Over.
+                            </p>
+                            <p>
+                                3. In case the match is abandoned, all contests will be cancelled and the amount will be credited back to the user account.
+                            </p>
+                            <p>
+                                4. In case of shortened match, the contests will be applicable only if a minimum of 10 overs have been bowled by each side. In all other cases, all contests will be cancelled and the amount will be credited back to the user account.
+                            </p>
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
             </div>
         </div>
     </div>
