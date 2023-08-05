@@ -8,9 +8,9 @@ function App() {
 
   return (
     <>
-
+   
       <Nav />
-      <div className=" max-w-7xl mx-auto text-primary ">
+      <div className=" max-w-7xl mx-auto text-primary font-outline">
         <Routes >
           <Route element={<Main />} path="/" />
           <Route element={<AboutUs />} path="/About" />
