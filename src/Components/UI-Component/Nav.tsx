@@ -18,17 +18,17 @@ const Nav: FC<P> = () => {
   };
 
   return (
-    <div className="sticky  bg-transparent z-30 top-0 w-full ">
+    <div className="sticky backdrop-blur-md md:backdrop-blur-none bg-transparent z-30 top-0 w-full ">
       <Box
         display={"flex"}
         justifyContent={"space-between"}
-        padding={3}
+        padding={2}
         fontStyle={"primary"}
         position={"relative"}
         alignItems={"center"}
       >
         <RouterLink to={"/"} className="flex items-center gap-4 ">
-          <img src={Logo} style={{ height: 30, width: 40 }} alt="logo" />
+          <img src={Logo} style={{ height: 25, width: 40 }} alt="logo" />
           <h1 className="font-bold text-xl" children="Pro 11 Club" />
         </RouterLink> 
 
