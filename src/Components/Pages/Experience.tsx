@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import Player from '../../../public/Player.svg'
-import Ball from '../../../public/ball.png'
+import Ball from '../../../public/BigBall.svg'
 import Star from '../../../public/Star.png'
 import EPhone from '../../../public/Phone.svg'
 import ExperienceMapper from '../UI-Component/ExperienceMapper'
@@ -21,7 +21,7 @@ const Experience: FC<P> = () => {
             <div className='sm:flex sm:items-center max-w-7xl mx-auto '>
                 <div className='flex items-center justify-between sm:w-1/2'>
                     <div className='pt-10 w-2/3 '>
-                        <motion.div whileInView={{ opacity: 1, x: md === true ? -80 : -200, y: md === true ? 140 : 70, transition: { duration: 1.5 } }} ><motion.img src={Ball} alt='Ball' className=' absolute sm:flex left-96 -mr-96 ' /></motion.div>
+                        <motion.div whileInView={{ opacity: 1, x: md === true ? -80 : -200, y: md === true ? 140 : 70, transition: { duration: 1.5 } }} ><motion.img src={Ball} alt='Ball' className=' absolute sm:flex left-96 -mr-96 sm:h-20 ' /></motion.div>
                         <img src={Player} alt="Player" className='relative  ' />
                     </div>
                     <div className=' sm:invisible sm:w-0 mt-8 mr-6 '>
