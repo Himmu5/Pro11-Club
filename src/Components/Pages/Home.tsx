@@ -23,7 +23,7 @@ const Home: FC<P> = () => {
               Indulge in captivating fantasy cricket. Build your dream team,
               strategize, and compete in leagues. Pro 11 Club awaits!
             </p>
-            <Button children="DOWNLOAD APP" endIcon={<ArrowForwardIcon />} variant="contained" style={{ backgroundColor: "#222229" }} sx={{ paddingLeft: 1, paddingRight: 2, alignSelf: matches === true ? "start" : "center" }} />
+            <Button children="DOWNLOAD APP" endIcon={<ArrowForwardIcon />} variant="contained" style={{ backgroundColor: "#222229", borderRadius: 0 }} sx={{ paddingLeft: 1, paddingRight: 2, alignSelf: matches === true ? "start" : "center" }} />
           </div>
           <div className="sm:w-1/2 sm:h-1/3 ">
             <PhoneImage />

@@ -38,7 +38,7 @@ const Nav: FC<P> = () => {
           <RouterLink to="/About">About Us</RouterLink>
           <p>Contact Us</p>
         </div>
-        <Button children="Download Now" variant="contained" sx={{ display: matches === false ? "none" : "flex" }} style={{ backgroundColor: "#222229" }} className="bg-primary" />
+        <Button children="Download Now" variant="contained" sx={{ display: matches === false ? "none" : "flex" , borderRadius:0 }} style={{ backgroundColor: "#222229" }} className="bg-primary" />
         <motion.div hidden={matches} className="relative z-10" onTap={toggleHam}>
           <Hamburger size={20} toggled={open} />
         </motion.div>
@@ -79,7 +79,7 @@ const Nav: FC<P> = () => {
             <Typography variant="h4" children="FAQ's" />
             <Typography variant="h4" children="About Us" />
             <Typography variant="h4" children="Contact Us" />
-            <Button children="Download App" size="large" variant="contained" style={{ backgroundColor: "#222229" }} />
+            <Button children="Download App" size="large" variant="contained" style={{ backgroundColor: "#222229", borderRadius:0 }} />
           </Box>
         </Dialog>
         {/* </div> */}
