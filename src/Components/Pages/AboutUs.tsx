@@ -186,110 +186,195 @@ const AboutUs: FC<P> = () => {
 
                         <div>
 
-                            Note: 1. If a player scores a century, he/she will get bonus points only for the century and not for the 30-run and half-century. Similarly, if he/she scores a half-century, the 30-run bonus will be not applicable.
-                            2. If there are overthrow runs, the points for the runs will be awarded to the player. But, if there is a boundary in overthrows, the player will not get any points for it.
-                            3. The points for dismissal for a duck will only be deducted in the case of batters, all-rounders and wicket keepers. No points will be deducted in case of bowlers.
-                            Bowling points:
+                            <p>
+                                Note: 1. If a player scores a century, he/she will get bonus points only for the century and not for the 30-run and half-century. Similarly, if he/she scores a half-century, the 30-run bonus will be not applicable.
+                            </p>
 
-                            Note: 1. If a player gets a 5-wicket haul, he/she will be awarded bonus points only for the 5-wicket haul and not the 3-wicket haul or 4-wicket haul. Similarly, for a 4-wicket haul, he/she will not be awarded any points for the 3-wicket haul.
-                            2. A ball will be considered as dot ball if there is no increase in the total score of the batting team. If there is a bye or leg-bye, it will not be considered as a dot ball.
-                            3. If a no-ball is a dot ball, the player will not receive any dot ball bonus for that ball. But, if the free hit ball is a dot-ball, he/she will be awarded the dot ball points for the free hit ball.
-                            4. There will be no separate point system for death overs in a T10 match.
-                            Fielding points:
+                            <p>
+                                2. If there are overthrow runs, the points for the runs will be awarded to the player. But, if there is a boundary in overthrows, the player will not get any points for it.
+                            </p>
+                            <p>
+                                3. The points for dismissal for a duck will only be deducted in the case of batters, all-rounders and wicket keepers. No points will be deducted in case of bowlers.
+                            </p>
 
-                            1. Direct hit is considered only when the ball is touched by one fielder after the batter faces the delivery. In any other case the points will be split between the thrower and the fielder receiving the throw before inflicting the run-out.
-                            2. In case more than 2 fielders are involved in case of a run-out, the points will be awarded to the last two fielders involved in inflicting the run-out.
-                            Economy-rate points (Minimum 1 over bowled):
+                            <p>Bowling points:</p>
 
+                            <p>
+                                Note: 1. If a player gets a 5-wicket haul, he/she will be awarded bonus points only for the 5-wicket haul and not the 3-wicket haul or 4-wicket haul. Similarly, for a 4-wicket haul, he/she will not be awarded any points for the 3-wicket haul.
+                            </p>
+                            <p>
+                                2. A ball will be considered as dot ball if there is no increase in the total score of the batting team. If there is a bye or leg-bye, it will not be considered as a dot ball.
+                            </p>
+                            <p>
+                                3. If a no-ball is a dot ball, the player will not receive any dot ball bonus for that ball. But, if the free hit ball is a dot-ball, he/she will be awarded the dot ball points for the free hit ball.
+                            </p>
+                            <p>
+                                4. There will be no separate point system for death overs in a T10 match.
+                                Fielding points:
+                            </p>
+
+                            <p>
+                                1. Direct hit is considered only when the ball is touched by one fielder after the batter faces the delivery. In any other case the points will be split between the thrower and the fielder receiving the throw before inflicting the run-out.
+                            </p>
+                            <p>
+                                2. In case more than 2 fielders are involved in case of a run-out, the points will be awarded to the last two fielders involved in inflicting the run-out.
+                            </p>
+                            <p>Economy-rate points (Minimum 1 over bowled):</p>
+
+                            <p>Note: 1. Negative points for below 100 strike rates are not applicable for bowlers.</p>
+                            <p>Others:</p>
+                            <p>In announced starting lineups</p>
+
+                            <p>
+                                Note: 1. Here, 2x means that if a player is selected as the Captain of the fantasy team, he/she will be awarded 2 times the points scored by him/her. Similarly, in case of Vice-Captain and Ace Players, the multiplication factor will 1.5 and 1.25 respectively.
+                            </p>
+                            <p>
+                                2. You can select 3 Ace Players for your fantasy team. The multiplication factor for the points scored by all 3 Ace Players will be the same, i.e. 1.25 times the points scored by them.
+                            </p>
+                            <p>Other Important Points:</p>
+                            <p>
+                                1. Concussion and Covid-19 substitutes will be awarded points for their contribution in the game. However, they will not receive any points (4 points) for being in the lineup. Also, the player being substituted will get points for both being in the starting lineup and for his/her contribution.
+                            </p>
+                            <p>2. No points will be awarded for contributions by the players in the Super Over.</p>
+                            <p>
+                                3. In case the match is abandoned, all contests will be cancelled and the amount will be credited back to the user account.
+                            </p>
+                            <p>
+                                4. In case of a shortened match, the contests will be applicable only if a minimum of 5 overs have been bowled by each side. In all other cases, all contests will be cancelled and the amount will be credited back to the user account.
+                            </p>
+                            <p>The Hundred</p>
+                            <p>Batting points:</p>
+
+                            <p>
+                                Note: 1. If a player scores a century, he/she will get bonus points only for the century and not for the 30-run and half-century. Similarly, if he/she scores a half-century, the 30-run bonus will be not applicable.</p>
+
+                            <p>
+                                2. If there are overthrow runs, the points for the runs will be awarded to the player. But, if there is a boundary in overthrows, the player will not get any points for it.
+                            </p>
+                            <p>
+                                3. The points for dismissal for a duck will only be deducted in the case of batters, all-rounders and wicket keepers. No points will be deducted in case of bowlers.
+                            </p>
+                            <p>Bowling points:</p>
+
+                            <p>
+                                Note: 1. If a player gets a 5-wicket haul, he/she will be awarded bonus points only for the 5-wicket haul and not the 3-wicket haul or 4-wicket haul. Similarly, for a 4-wicket haul, he/she will not be awarded any points for the 3-wicket haul.
+                            </p>
+                            <p>2. A ball will be considered as dot ball if there is no increase in the total score of the batting team. If there is a bye or leg-bye, it will not be considered as a dot ball.
+                            </p>
+                            <p>
+                                3. If a no-ball is a dot ball, the player will not receive any dot ball bonus for that ball. But, if the free hit ball is a dot-ball, he/she will be awarded the dot ball points for the free hit ball.
+                            </p>
+                            <p>
+                                4. There will be no separate point system for death overs in The Hundred matches.
+                            </p>
+                            <p>Fielding points:</p>
+
+                            <p>1. Direct hit is considered only when the ball is touched by one fielder after the batter faces the delivery. In any other case the points will be split between the thrower and the fielder receiving the throw before inflicting the run-out.</p>
+                            <p> 2. In case more than 2 fielders are involved in case of a run-out, the points will be awarded to the last two fielders involved in inflicting the run-out.</p>
+                            <p>Others:</p>
+                            <p>In announced starting lineups</p>
+
+                            <p>Note: 1. Here, 2x means that if a player is selected as the Captain of the fantasy team, he/she will be awarded 2 times the points scored by him/her. Similarly, in case of Vice-Captain and Ace Players, the multiplication factor will 1.5 and 1.25 respectively.</p>
+                            <p>2. You can selected 3 Ace Players for your fantasy team. The multiplication factor for the points scored by all 3 Ace Players will be same, i.e. 1.25 times the points scored by them.</p>
+                            <p>Other Important Points:</p>
+                           <p>1. Concussion and Covid-19 substitutes will be awarded points for their contribution in the game. However, they will not receive any points (4 points) for being in the lineup. Also, the player being substituted will get points for both being in the starting lineup and for his/her contribution.</p>
+                            <p>2. No points will be awarded for contributions by the players in the Super Over.</p>
+                            <p>3. In case the match is abandoned or shortened, all contests will be cancelled and the amount will be credited back to the user account.</p>
+                            <p>4. The points for the Strike-Rate, Economy-Rate and Maiden Overs will not be applicable in The Hundred.</p>
+                            <p>One-Day</p>
+                            <p>Batting points:</p>
+
+                            <p>
+                                Note: 1. If a player scores a double-century, he/she will get bonus points only for the double-century and not for the century and half-century. Similarly, if he/she scores a century, the half century bonus will be not applicable.</p>
+                            <p>2. If there are overthrow runs, the points for the runs will be awarded to the player. But, if there is a boundary in overthrows, the player will not get any points for it.</p>
+
+                            <p> 3. The points for dismissal for a duck will only be deducted in the case of batters, all-rounders and wicket keepers. No points will be deducted in case of bowlers.</p>
+                           <p>Bowling points:</p>
+
+                            <p>
+                                Note: 1. If a player gets a 6-wicket haul, he/she will be awarded bonus points only for the 6-wicket haul and not the 5-wicket haul or 4-wicket haul. Similarly, for a 5-wicket haul, he/she will not be awarded any points for the 4-wicket haul.</p>
+                            <p>
+                                2. A ball will be considered as dot ball if there is no increase in the total score of the batting team. If there is a bye or leg-bye, it will not be considered as a dot ball.</p>
+                            <p>
+                                3. If a no-ball is a dot ball, the player will not receive any dot ball bonus for that ball. But, if the free hit ball is a dot-ball, he/she will be awarded the dot ball points for the free hit ball.
+                            </p>
+                            <p>4. The last 10 overs of the One Day match will be considered as death overs.</p>
+                            <p>Fielding points:</p>
+
+                            <p>
+                                1. Direct hit is considered only when the ball is touched by one fielder after the batter faces the delivery. In any other case the points will be split between the thrower and the fielder receiving the throw before inflicting the run-out.</p>
+                            <p>2. In case more than 2 fielders are involved in case of a run-out, the points will be awarded to the last two fielders involved in inflicting the run-out.</p>
+                            <p>Economy-rate points (Minimum 5 overs bowled):</p>
+
+                            <p>
                             Note: 1. Negative points for below 100 strike rates are not applicable for bowlers.
-                            Others:
-                            In announced starting lineups
+                            </p>
+                            <p>Others:</p>
+                            <p>In announced starting lineups</p>
 
-                            Note: 1. Here, 2x means that if a player is selected as the Captain of the fantasy team, he/she will be awarded 2 times the points scored by him/her. Similarly, in case of Vice-Captain and Ace Players, the multiplication factor will 1.5 and 1.25 respectively.
-                            2. You can select 3 Ace Players for your fantasy team. The multiplication factor for the points scored by all 3 Ace Players will be the same, i.e. 1.25 times the points scored by them.
-                            Other Important Points:
-                            1. Concussion and Covid-19 substitutes will be awarded points for their contribution in the game. However, they will not receive any points (4 points) for being in the lineup. Also, the player being substituted will get points for both being in the starting lineup and for his/her contribution.
-                            2. No points will be awarded for contributions by the players in the Super Over.
-                            3. In case the match is abandoned, all contests will be cancelled and the amount will be credited back to the user account.
-                            4. In case of a shortened match, the contests will be applicable only if a minimum of 5 overs have been bowled by each side. In all other cases, all contests will be cancelled and the amount will be credited back to the user account.
-                            The Hundred
-                            Batting points:
+                            <p>
+                                Note: 1. Here, 2x means that if a player is selected as the Captain of the fantasy team, he/she will be awarded 2 times the points scored by him/her. Similarly, in case of Vice-Captain and Ace Players, the multiplication factor will 1.5 and 1.25 respectively.
+                            </p>
+                            <p>
+                                2. You can select 3 Ace Players for your fantasy team. The multiplication factor for the points scored by all 3 Ace Players will be same, i.e. 1.25 times the points scored by them.
+                            </p>
+                            <p>Other Important Points:</p>
+                            <p>
+                                1. Concussion and Covid-19 substitutes will be awarded points for their contribution in the game. However, they will not receive any points (4 points) for being in the lineup. Also, the player being substituted will get points for both being in the starting lineup and for his/her contribution.
+                            </p>
+                            <p>2. No points will be awarded for contributions by the players in the Super Over.</p>
+                            <p>
+                                3. In case the match is abandoned, all contests will be cancelled and the amount will be credited back to the user account.
+                            </p>
 
-                            Note: 1. If a player scores a century, he/she will get bonus points only for the century and not for the 30-run and half-century. Similarly, if he/she scores a half-century, the 30-run bonus will be not applicable.
-                            2. If there are overthrow runs, the points for the runs will be awarded to the player. But, if there is a boundary in overthrows, the player will not get any points for it.
-                            3. The points for dismissal for a duck will only be deducted in the case of batters, all-rounders and wicket keepers. No points will be deducted in case of bowlers.
-                            Bowling points:
+                            <p>4. In case of shortened match, the contests will be applicable only if a minimum of 30 overs have been bowled by each side. In all other cases, all contests will be cancelled and the amount will be credited back to the user account.</p>
+                            <p>Test</p>
+                            <p>Batting points:</p>
 
-                            Note: 1. If a player gets a 5-wicket haul, he/she will be awarded bonus points only for the 5-wicket haul and not the 3-wicket haul or 4-wicket haul. Similarly, for a 4-wicket haul, he/she will not be awarded any points for the 3-wicket haul.
-                            2. A ball will be considered as dot ball if there is no increase in the total score of the batting team. If there is a bye or leg-bye, it will not be considered as a dot ball.
-                            3. If a no-ball is a dot ball, the player will not receive any dot ball bonus for that ball. But, if the free hit ball is a dot-ball, he/she will be awarded the dot ball points for the free hit ball.
-                            4. There will be no separate point system for death overs in The Hundred matches.
-                            Fielding points:
+                            <p>
+                                Note: 1. If a player scores a double-century, he/she will get bonus points only for the double-century and not for the century and half-century. Similarly, if he/she scores a century, the half century bonus will be not applicable.
+                            </p>
+                            <p>
+                                2. If there are overthrow runs, the points for the runs will be awarded to the player. But, if there is a boundary in overthrows, the player will not get any points for it.
+                            </p>
+                            <p>
+                                3. The points for dismissal for a duck will only be deducted in the case of batters, all-rounders and wicket keepers. No points will be deducted in case of bowlers.
+                                Bowling points:
+                                Wicket
+                            </p>
 
-                            1. Direct hit is considered only when the ball is touched by one fielder after the batter faces the delivery. In any other case the points will be split between the thrower and the fielder receiving the throw before inflicting the run-out.
-                            2. In case more than 2 fielders are involved in case of a run-out, the points will be awarded to the last two fielders involved in inflicting the run-out.
-                            Others:
-                            In announced starting lineups
+                            <p>
+                                Note: 1. If a player gets a 6-wicket haul, he/she will be awarded bonus points only for the 6-wicket haul and not the 5-wicket haul or 4-wicket haul. Similarly, for a 5-wicket haul, he/she will not be awarded any points for the 4-wicket haul.
+                            </p>
+                            <p>
+                                2. There will be no points for dot balls or maiden overs in a test match.
+                                Fielding points:
+                            </p>
 
-                            Note: 1. Here, 2x means that if a player is selected as the Captain of the fantasy team, he/she will be awarded 2 times the points scored by him/her. Similarly, in case of Vice-Captain and Ace Players, the multiplication factor will 1.5 and 1.25 respectively.
-                            2. You can selected 3 Ace Players for your fantasy team. The multiplication factor for the points scored by all 3 Ace Players will be same, i.e. 1.25 times the points scored by them.
-                            Other Important Points:
-                            1. Concussion and Covid-19 substitutes will be awarded points for their contribution in the game. However, they will not receive any points (4 points) for being in the lineup. Also, the player being substituted will get points for both being in the starting lineup and for his/her contribution.
-                            2. No points will be awarded for contributions by the players in the Super Over.
-                            3. In case the match is abandoned or shortened, all contests will be cancelled and the amount will be credited back to the user account.
-                            4. The points for the Strike-Rate, Economy-Rate and Maiden Overs will not be applicable in The Hundred.
-                            One-Day
-                            Batting points:
+                            <p>
+                                1. Direct hit is considered only when the ball is touched by one fielder after the batter faces the delivery. In any other case the points will be split between the thrower and the fielder receiving the throw before inflicting the run-out.
+                            </p>
+                            <p>
+                                2. In case more than 2 fielders are involved in case of a run-out, the points will be awarded to the last two fielders involved in inflicting the run-out.
+                                Others:
+                            </p>
 
-                            Note: 1. If a player scores a double-century, he/she will get bonus points only for the double-century and not for the century and half-century. Similarly, if he/she scores a century, the half century bonus will be not applicable.
-                            2. If there are overthrow runs, the points for the runs will be awarded to the player. But, if there is a boundary in overthrows, the player will not get any points for it.
-                            3. The points for dismissal for a duck will only be deducted in the case of batters, all-rounders and wicket keepers. No points will be deducted in case of bowlers.
-                            Bowling points:
-
-                            Note: 1. If a player gets a 6-wicket haul, he/she will be awarded bonus points only for the 6-wicket haul and not the 5-wicket haul or 4-wicket haul. Similarly, for a 5-wicket haul, he/she will not be awarded any points for the 4-wicket haul.
-                            2. A ball will be considered as dot ball if there is no increase in the total score of the batting team. If there is a bye or leg-bye, it will not be considered as a dot ball.
-                            3. If a no-ball is a dot ball, the player will not receive any dot ball bonus for that ball. But, if the free hit ball is a dot-ball, he/she will be awarded the dot ball points for the free hit ball.
-                            4. The last 10 overs of the One Day match will be considered as death overs.
-                            Fielding points:
-
-                            1. Direct hit is considered only when the ball is touched by one fielder after the batter faces the delivery. In any other case the points will be split between the thrower and the fielder receiving the throw before inflicting the run-out.
-                            2. In case more than 2 fielders are involved in case of a run-out, the points will be awarded to the last two fielders involved in inflicting the run-out.
-                            Economy-rate points (Minimum 5 overs bowled):
-
-                            Note: 1. Negative points for below 100 strike rates are not applicable for bowlers.
-                            Others:
-                            In announced starting lineups
-
-                            Note: 1. Here, 2x means that if a player is selected as the Captain of the fantasy team, he/she will be awarded 2 times the points scored by him/her. Similarly, in case of Vice-Captain and Ace Players, the multiplication factor will 1.5 and 1.25 respectively.
-                            2. You can select 3 Ace Players for your fantasy team. The multiplication factor for the points scored by all 3 Ace Players will be same, i.e. 1.25 times the points scored by them.
-                            Other Important Points:
-                            1. Concussion and Covid-19 substitutes will be awarded points for their contribution in the game. However, they will not receive any points (4 points) for being in the lineup. Also, the player being substituted will get points for both being in the starting lineup and for his/her contribution.
-                            2. No points will be awarded for contributions by the players in the Super Over.
-                            3. In case the match is abandoned, all contests will be cancelled and the amount will be credited back to the user account.
-                            4. In case of shortened match, the contests will be applicable only if a minimum of 30 overs have been bowled by each side. In all other cases, all contests will be cancelled and the amount will be credited back to the user account.
-                            Test
-                            Batting points:
-
-                            Note: 1. If a player scores a double-century, he/she will get bonus points only for the double-century and not for the century and half-century. Similarly, if he/she scores a century, the half century bonus will be not applicable.
-                            2. If there are overthrow runs, the points for the runs will be awarded to the player. But, if there is a boundary in overthrows, the player will not get any points for it.
-                            3. The points for dismissal for a duck will only be deducted in the case of batters, all-rounders and wicket keepers. No points will be deducted in case of bowlers.
-                            Bowling points:
-                            Wicket
-
-                            Note: 1. If a player gets a 6-wicket haul, he/she will be awarded bonus points only for the 6-wicket haul and not the 5-wicket haul or 4-wicket haul. Similarly, for a 5-wicket haul, he/she will not be awarded any points for the 4-wicket haul.
-                            2. There will be no points for dot balls or maiden overs in a test match.
-                            Fielding points:
-
-                            1. Direct hit is considered only when the ball is touched by one fielder after the batter faces the delivery. In any other case the points will be split between the thrower and the fielder receiving the throw before inflicting the run-out.
-                            2. In case more than 2 fielders are involved in case of a run-out, the points will be awarded to the last two fielders involved in inflicting the run-out.
-                            Others:
-
-                            Note: 1. Here, 2x means that if a player is selected as the Captain of the fantasy team, he/she will be awarded 2 times the points scored by him/her. Similarly, in case of Vice-Captain and Ace Players, the multiplication factor will 1.5 and 1.25 respectively.
-                            2. You can select 3 Ace Players for your fantasy team. The multiplication factor for the points scored by all 3 Ace Players will be same, i.e. 1.25 times the points scored by them.
-                            Other Important Points:
-                            1. Concussion and Covid-19 substitutes will be awarded points for their contribution in the game. However, they will not receive any points (4 points) for being in the lineup. Also, the player being substituted will get points for both being in the starting lineup and for his/her contribution.
-                            2. In case the match is abandoned, all contests will be cancelled and the amount will be credited back to the user account.
-                            3. The points for the Strike-Rate, Economy-Rate and Maiden Overs will not be applicable in the test matches.
+                            <p>
+                                Note: 1. Here, 2x means that if a player is selected as the Captain of the fantasy team, he/she will be awarded 2 times the points scored by him/her. Similarly, in case of Vice-Captain and Ace Players, the multiplication factor will 1.5 and 1.25 respectively.
+                            </p>
+                            <p>
+                                2. You can select 3 Ace Players for your fantasy team. The multiplication factor for the points scored by all 3 Ace Players will be same, i.e. 1.25 times the points scored by them.
+                                Other Important Points:
+                            </p>
+                            <p>
+                                1. Concussion and Covid-19 substitutes will be awarded points for their contribution in the game. However, they will not receive any points (4 points) for being in the lineup. Also, the player being substituted will get points for both being in the starting lineup and for his/her contribution.
+                            </p>
+                            <p>
+                                2. In case the match is abandoned, all contests will be cancelled and the amount will be credited back to the user account.
+                            </p>
+                            <p>
+                                3. The points for the Strike-Rate, Economy-Rate and Maiden Overs will not be applicable in the test matches.
+                            </p>
                         </div>
 
                     </div>
