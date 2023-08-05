@@ -11,9 +11,12 @@ import BattingPoint from '../../../public/BattingPoint.svg'
 type P = object
 const AboutUs: FC<P> = () => {
     return <div className='m-3 font-outline text-justify '>
-        <div>
-            <h1 className='text-gray-500 font-bold text-2xl text-center py-5 '>ABOUT COMPANY</h1>
-            <div className='border border-gray-700 rounded-xl p-3'>
+        <div className='flex flex-col'>
+            <h1 className='text-gray-500 font-bold text-2xl text-center py-5 sm:text-4xl md:text-5xl '>ABOUT COMPANY</h1>
+            <div className='border  border-gray-700 relative  rounded-xl p-3 sm:max-w-6xl sm:mx-auto'>
+                <div className='h-32 self-start absolute w-40 sm:w-1/4 bg-gradient-to-r from-blue-700 via-green-400 blur-3xl to-pink-500'>
+
+                </div>
                 <p>
                     GoPro Universe Gaming Private Limited operates the portal in India, which offers cricket fantasy games through the web-portal Pro 11 Club.com and partner website(s) and mobile application(s) (collectively referred to as the “Portal”) (Sporta Technologies Private Limited referred to herein as “Pro 11 Club” or “we” or “us” “our”). Any person utilizing the Portal (“User” or “you” or “your”) or any of its features including participation in the various contests, games (including fantasy games (“Game”) (" Services ") being conducted on the Portal) shall be bound by this Privacy Policy. Pro 11 Club respects the privacy of its Users and is committed to protect it in all respects. With a view to offer an enriching and holistic internet experience to its users, Pro 11 Club offers a vast repository of Services. Kindly take time to read the ‘About Us’ section to know more about Pro 11 Club. Most of the Services are offered for free but you may need registration to participate in Pro11Club’s online games. The information about the User is collected by Pro 11 Club as (i) information supplied by Users and (ii) information automatically tracked during User’s navigation on Pro11Club.
                 </p>
@@ -38,7 +41,11 @@ const AboutUs: FC<P> = () => {
                 <p className='pb-5'>
                     To improve the effectiveness and usability of the Portal for our Users, we use “cookies”, or such similar electronic tools to collect information to assign each visitor a unique random number as a User Identification (User ID) to understand the User’s individual interests using the identified computer. Unless the User voluntarily identifies himself/herself (e.g., through registration), Pro11Club has no way of knowing who the User is, even if we assign a cookie to the User’s computer. The only personal information a cookie can contain is information supplied by the User. A cookie cannot read data off the User’s hard drive. Pro11Club’s advertisers may also assign their own cookies to the User’s browser (if the User clicks on their ad banners), a process that Pro11Club does not control. Pro11Club’s web servers automatically collect limited information about User’s computer’s connection to the Internet, including User’s IP address, when the User visits the Portal. (User’s IP address is a number that lets computers attached to the Internet know where to send data to the User – such as the web pages viewed by the User). The User’s IP address does not identify the User personally. Pro11Club uses this information to deliver its web pages to Users upon request, to tailor its Portal to the interests of its users, to measure traffic within the Portal and let advertisers know the geographic locations from where Pro11Club’s visitors come.
                 </p>
-                <h1 className='font-bold text-2xl text-black'>Links:</h1>
+                <div className='relative flex flex-col' >
+                    <h1 className='font-bold text-2xl text-black'>Links:</h1>
+                    <div className='h-32 self-end absolute w-40 sm:w-1/4 bg-gradient-to-r from-pink-600 blur-3xl sm:h-56 to-pink-300'></div>
+                </div>
+
                 <p className='pb-5'>
                     Pro11Club also includes links to other websites. Such websites are governed by their respective privacy policies, which are beyond Pro11Club’s control. Once the User leaves Pro11Club’s servers (the User can tell where he/she is by checking the URL in the location bar on the User’s browser), use of any information provided by the User is governed by the privacy policy of the operator of the site which the User is visiting. That policy may differ from Pro11Club’s own. If the User can’t find the privacy policy of any of these sites via a link from the site’s homepage, the User may contact the site directly for more information. Pro11Club is not responsible for the privacy practices or the content of such websites.
                 </p>
@@ -73,7 +80,7 @@ const AboutUs: FC<P> = () => {
                 <p className='py-5'>
                     (i) the suspension of your account, after which you will not be able to play paid contests on your User account but will continue to have access to other parts of the Portal; or · (ii) temporary deactivation of your account, where you will no longer be able to log into the Portal but which allows you to request reactivation of your account with all your account data. If you proceed with permanent deactivation of your account, you will lose access to the Portal and the Services, including any User data and personal information associated with your account. Users may request for account restoration within six (6) months from the date of notification of account deletion by Pro11Club by writing to help@pro11club.com When you request deletion of your data, we follow a deletion process that ensures that your data is safely and completely removed from our servers or retained only in anonymized form. We try to ensure that our services protect information from accidental or malicious deletion. Because of this, there may be delays between when you request deletion and when copies are deleted from our active and backup systems.
                 </p>
-
+                <div className='h-32 self-start absolute w-40 sm:w-1/4 bg-gradient-to-r from-blue-700 via-green-400 blur-3xl to-pink-500'></div>
                 <h1 className='font-bold text-2xl text-black'>Applicable Law and Jurisdiction:</h1>
                 <p className='pb-5'>
                     By visiting this Portal, you agree that the laws of the Republic of India without regard to its conflict of laws principles, govern this Privacy Policy and any dispute arising in respect hereof shall be subject to and governed by the dispute resolution process set out in the Terms and Conditions.
@@ -147,6 +154,7 @@ const AboutUs: FC<P> = () => {
                     </div>
                     <div>
                         <h1 className='text-2xl text-black text-start'>Others:</h1>
+                        <div className='h-32 self-start absolute w-40 sm:w-1/4 bg-gradient-to-r from-blue-700 via-green-400 blur-3xl to-pink-500'></div>
                         <img src={Other} alt="Other" className='py-3 w-full' />
                         <div className='py-3'>
                             <p>
@@ -277,7 +285,7 @@ const AboutUs: FC<P> = () => {
                             <p>Note: 1. Here, 2x means that if a player is selected as the Captain of the fantasy team, he/she will be awarded 2 times the points scored by him/her. Similarly, in case of Vice-Captain and Ace Players, the multiplication factor will 1.5 and 1.25 respectively.</p>
                             <p>2. You can selected 3 Ace Players for your fantasy team. The multiplication factor for the points scored by all 3 Ace Players will be same, i.e. 1.25 times the points scored by them.</p>
                             <p>Other Important Points:</p>
-                           <p>1. Concussion and Covid-19 substitutes will be awarded points for their contribution in the game. However, they will not receive any points (4 points) for being in the lineup. Also, the player being substituted will get points for both being in the starting lineup and for his/her contribution.</p>
+                            <p>1. Concussion and Covid-19 substitutes will be awarded points for their contribution in the game. However, they will not receive any points (4 points) for being in the lineup. Also, the player being substituted will get points for both being in the starting lineup and for his/her contribution.</p>
                             <p>2. No points will be awarded for contributions by the players in the Super Over.</p>
                             <p>3. In case the match is abandoned or shortened, all contests will be cancelled and the amount will be credited back to the user account.</p>
                             <p>4. The points for the Strike-Rate, Economy-Rate and Maiden Overs will not be applicable in The Hundred.</p>
@@ -289,7 +297,7 @@ const AboutUs: FC<P> = () => {
                             <p>2. If there are overthrow runs, the points for the runs will be awarded to the player. But, if there is a boundary in overthrows, the player will not get any points for it.</p>
 
                             <p> 3. The points for dismissal for a duck will only be deducted in the case of batters, all-rounders and wicket keepers. No points will be deducted in case of bowlers.</p>
-                           <p>Bowling points:</p>
+                            <p>Bowling points:</p>
 
                             <p>
                                 Note: 1. If a player gets a 6-wicket haul, he/she will be awarded bonus points only for the 6-wicket haul and not the 5-wicket haul or 4-wicket haul. Similarly, for a 5-wicket haul, he/she will not be awarded any points for the 4-wicket haul.</p>
@@ -307,7 +315,7 @@ const AboutUs: FC<P> = () => {
                             <p>Economy-rate points (Minimum 5 overs bowled):</p>
 
                             <p>
-                            Note: 1. Negative points for below 100 strike rates are not applicable for bowlers.
+                                Note: 1. Negative points for below 100 strike rates are not applicable for bowlers.
                             </p>
                             <p>Others:</p>
                             <p>In announced starting lineups</p>
@@ -379,6 +387,7 @@ const AboutUs: FC<P> = () => {
 
                     </div>
 
+                    <div className='h-32 self-start absolute w-40 sm:w-1/4 bg-gradient-to-r from-blue-700 via-green-400 blur-3xl to-pink-500'></div>
 
                 </div>
             </div>
