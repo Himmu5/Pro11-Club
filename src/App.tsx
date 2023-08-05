@@ -2,16 +2,15 @@
 // import Footer from "./Components/Pages/Footer"
 // import Main from "./Components/Pages/Main"
 // import Nav from "./Components/UI-Component/Nav"
-// import AboutUs from "./Components/Pages/AboutUs"
+import AboutUs from "./Components/Pages/AboutUs"
 
-import PrivacyPolicy from "./Components/Pages/PrivacyPolicy"
 
 function App() {
 
   return (
     <>
+    <AboutUs />
 
-      <PrivacyPolicy />
       {/* <Nav />
       <div className=" max-w-7xl mx-auto text-primary font-outline">
         <Routes >
