@@ -1,7 +1,8 @@
 import { FC } from 'react'
 import TwoPhones from '../../../public/TwoPhones.svg'
-import CutBall from '../../../public/CutBall.svg'
+import CutBall from '../../../public/BigBall.svg'
 import Fade from 'react-reveal/Fade';
+import Rotate from 'react-reveal/Rotate';
 
 type P = object
 
@@ -13,8 +14,9 @@ const FantasyCricket: FC<P> = () => {
                 <img src={TwoPhones} alt="TwoPhones" className=' sm:-mt-40  mb-10 sm:mb-0 sm:w-4/6  relative z-20' />
                 <h1 className='text-4xl font-bold text-center sm:text-5xl w-full md:text-9xl absolute z-10 top-56 sm:top-72  '>CRICKET FANTASY</h1>
             </div>
-
-            <img src={CutBall} alt="CutBall" className=' h-56 self-end pt-10 ' />
+            <Rotate top left appear>
+                <img src={CutBall} alt="CutBall" className=' h-56 md:full self-end pt-10 ' />
+            </Rotate>
         </div>
     </Fade>
 }
