@@ -6,7 +6,7 @@ import { AiFillFacebook, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 
 type P = object
 const Footer: FC<P> = () => {
-    return <div name="Footer">
+    return <div name="Footer" className='relative z-20 backdrop-blur-sm bg-white/30  '>
 
         <div className='flex flex-col items-center py-10 '>
             <div className='flex gap-4'>
