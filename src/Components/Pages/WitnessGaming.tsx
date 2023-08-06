@@ -1,7 +1,9 @@
 import { FC } from 'react'
 import Star from '../../../public/Star.png'
-import Ball from '../../../public/CutBall.svg'
+import Ball from '../../../public/BigBall.svg'
 import Fade from 'react-reveal/Fade';
+import Roll from 'react-reveal/Roll';
+
 type P = object
 
 const WitnessGaming: FC<P> = () => {
@@ -27,9 +29,11 @@ const WitnessGaming: FC<P> = () => {
                 }
             </div>
 
-            <div className='sm:flex sm:justify-center sm:mt-80 sm:absolute sm:w-full '>
-                <img src={Ball} alt="Ball" className='rotate-90 sm:w-1/3  ' />
-            </div>
+            <Roll top>
+                <div className='sm:flex sm:justify-center sm:mt-80 sm:absolute sm:w-full h-full '>
+                    <img src={Ball} alt="Ball" className=' sm:w-1/2 h-full ' />
+                </div>
+            </Roll>
         </div>
     </Fade>
 }
