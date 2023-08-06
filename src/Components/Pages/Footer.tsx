@@ -35,12 +35,15 @@ const Footer: FC<P> = () => {
             </div>
 
         </div>
-        <div className='backdrop-blur-xl p-2'>
+        <div className='w-full backdrop-blur-xl relative p-2 flex flex-col '>
 
             <h1 className='font-bold text-xl text-black '> CORPORATE OFFICE</h1>
             <p>
                 ONE BKC, Tower A, 12th & 14th Floor, Unit 1201 & 1202 and 1401 & 1402, Plot C-66, G Block, Bandra Kurla Complex, Bandra (East), Mumbai 400 051
             </p>
+            <div className='h-32 w-32 absolute bg-gradient-to-r self-end  from-blue-500 to-pink-500 rounded-full blur-3xl'>
+
+            </div>
             <p className='py-3'>
                 DISCLAIMER:The fantasy sport games on the BalleBaazi platform involve an element of financial risk and may be addictive. Please play responsibly and at your own risk. SBN Gaming and/or BalleBaazi platform does not promote or advertise fantasy sport games as an income opportunity or an alternative employment option. SBN Gaming and/or BalleBaazi platform shall not, in any way whatsoever, be held responsible and liable for your breach of any rules & regulations, terms & conditions and applicable laws by you. Learn More
             </p>
