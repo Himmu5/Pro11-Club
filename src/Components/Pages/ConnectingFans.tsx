@@ -15,6 +15,7 @@ const ConnectingFans: FC<P> = () => {
                 <p className='text-sm space-y-3 py-5 flex flex-col lg:text-2xl'><span>Engage in lively conversations with fellow fans,</span> <span>sharing the exhilaration of live matches through Pro 11</span><span> Club's immersive chat experience.</span></p>
                 <div className='relative'></div>
                 <div className='sm:h-full'>
+                    
                     <Roll top right duration={5000}>
                         <img src={BigBall} alt="Big Ball" />
                     </Roll>
