@@ -23,6 +23,18 @@ const Experience: FC<P> = () => {
     const sm = useMediaQuery("(min-width : 600px)");
     const md = useMediaQuery("(min-width : 1080px)");
     const [selectedOption, setSelectedOption] = useState(1);
+    const [Animation, setAnimation] = useState({ top: true, bottom: false });
+
+    function ChangesPicture(num: number) {
+        if (selectedOption > num) {
+            setAnimation({ top: false, bottom: true });
+            setSelectedOption(num);
+        }
+        else {
+        setAnimation({ top: true, bottom: false });
+            setSelectedOption(num);
+        }
+    }
 
     return <>
         <Fade bottom>
@@ -44,15 +56,15 @@ const Experience: FC<P> = () => {
         {/* <Fade bottom delay={1}> */}
         <div className='sm:flex sm:items-center  sm:justify-center m-5'>
             <div className='flex w-full '>
-                {sm === true ? <ResponsiveExperienceMapper setSelectedOption={setSelectedOption} /> : <ExperienceMapper />}
+                {sm === true ? <ResponsiveExperienceMapper ChangesPicture={ChangesPicture} /> : <ExperienceMapper />}
             </div>
             <Fade top>
                 <div className='sm:w-2/3 sm:h-full'>
-                    {selectedOption === 1 && <Fade top><img src={EPhone} alt="EPhone" /></Fade>}
-                    {selectedOption === 2 && <Fade top><img  src={MobileChat} alt="MobileChat" /></Fade>}
-                    {selectedOption === 3 && <Fade top><img src={MobileExpert} alt="MobileExpert" /></Fade>}
-                    {selectedOption === 4 && <Fade top><img src={MobileReward} alt="MobileReward" /></Fade>}
-                    {selectedOption === 5 && <Fade top  ><img src={MobileLeague} alt="Mobile League" /></Fade>}
+                    {selectedOption === 1 && <Fade top={Animation.top} bottom={Animation.bottom}><img src={EPhone} alt="EPhone" /></Fade>}
+                    {selectedOption === 2 && <Fade top={Animation.top} bottom={Animation.bottom}><img src={MobileChat} alt="MobileChat" /></Fade>}
+                    {selectedOption === 3 && <Fade top={Animation.top} bottom={Animation.bottom}><img src={MobileExpert} alt="MobileExpert" /></Fade>}
+                    {selectedOption === 4 && <Fade top={Animation.top} bottom={Animation.bottom}><img src={MobileReward} alt="MobileReward" /></Fade>}
+                    {selectedOption === 5 && <Fade top={Animation.top} bottom={Animation.bottom}  ><img src={MobileLeague} alt="Mobile League" /></Fade>}
                 </div>
             </Fade>
         </div>
