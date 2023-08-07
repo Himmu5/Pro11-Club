@@ -23,9 +23,9 @@ const Experience: FC<P> = () => {
                 <div className='flex items-center justify-between sm:w-1/2'>
                     <div className='pt-10 w-2/3 '>
                         <Roll right duration={1200}>
-                        <motion.div whileInView={{  opacity: 1, x: md === true ? -80 : -200, y: md === true ? 140 : 70, transition: { duration: 1.5 } }} ><motion.img src={Ball} alt='Ball' className=' duration-300 absolute sm:flex left-96 -mr-96 h-16 sm:h-20 ' /></motion.div>
+                        <motion.div whileInView={{ opacity: 1, x: md === true ? -80 : -200, y: md === true ? 140 : 70, transition: { duration: 1.5 } }} ><motion.img src={Ball} alt='Ball' style={{rotate : 45 }} className=' duration-400 absolute sm:flex left-96 -mr-96 h-16 sm:h-20 ' /></motion.div>
                         </Roll>
-                        <img src={Player} alt="Player" className='relative  ' />
+                        <img src={Player} alt="Player" className='relative' />
                     </div>
                     <div className=' sm:invisible sm:w-0 mt-8 mr-6 '>
                         <img src={Star} alt="Star" />
