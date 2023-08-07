@@ -1,6 +1,7 @@
 import { FC } from 'react'
 import BlueTick from '../../../public/BlueTick.svg'
 import Chart from '../../../public/Chart.svg'
+import Trophie from '../../../public/Trophie.svg'
 import Chat from '../../../public/Chat.svg'
 import person from '../../../public/person.svg'
 
@@ -21,7 +22,7 @@ const ExperienceMapper: FC<P> = () => {
 
         <div className='flex justify-between items-center px-3 rounded-md py-4 shadow-lg  border mr-5'>
             <div className='flex items-center gap-4'>
-                <img src={Chart} alt="Chart" />
+                <img src={Chat} alt="Chart" />
                 <p>Play Along Chat</p>
             </div>
             <BiChevronRight />
@@ -29,7 +30,7 @@ const ExperienceMapper: FC<P> = () => {
 
         <div className='flex justify-between items-center px-3 rounded-md py-4 shadow-lg  border mr-5'>
             <div className='flex items-center gap-4'>
-                <img src={Chat} alt="Chat" />
+                <img src={Trophie} alt="Chat" />
                 <p>Get Rewarded for being an Expert</p>
             </div>
             <BiChevronRight />
@@ -44,39 +45,12 @@ const ExperienceMapper: FC<P> = () => {
         </div>
         <div className='flex justify-between items-center px-3 rounded-md py-4 shadow-lg  border mr-5'>
             <div className='flex items-center gap-4'>
-                <img src={person} alt="person" />
-                <p>Get Expert’s help</p>
+                <img src={Chart} alt="person" />
+                <p>Lowest Entry Leagues</p>
             </div>
             <BiChevronRight />
         </div>
-        <div className='flex justify-between items-center px-3 rounded-md py-4 shadow-lg  border mr-5'>
-            <div className='flex items-center gap-4'>
-                <img src={person} alt="person" />
-                <p>Get Expert’s help</p>
-            </div>
-            <BiChevronRight />
-        </div>
-        <div className='flex justify-between items-center px-3 rounded-md py-4 shadow-lg  border mr-5'>
-            <div className='flex items-center gap-4'>
-                <img src={person} alt="person" />
-                <p>Get Expert’s help</p>
-            </div>
-            <BiChevronRight />
-        </div>
-        <div className='flex justify-between items-center px-3 rounded-md py-4 shadow-lg  border mr-5'>
-            <div className='flex items-center gap-4'>
-                <img src={person} alt="person" />
-                <p>Get Expert’s help</p>
-            </div>
-            <BiChevronRight />
-        </div>
-        <div className='flex justify-between items-center px-3 rounded-md py-4 shadow-lg  border mr-5 '>
-            <div className='flex items-center gap-4'>
-                <img src={person} alt="person" />
-                <p>Get Expert’s help</p>
-            </div>
-            <BiChevronRight />
-        </div>
+        
     </div>
 }
 export default ExperienceMapper;
