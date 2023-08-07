@@ -20,7 +20,7 @@ const WitnessGaming: FC<P> = () => {
     ]
 
     return <Fade bottom>
-        <div className='mt-10 flex flex-col gap-4 items-center '>
+        <div className='mt-10 flex flex-col gap-4 items-center min-h-screen '>
             <img src={Star} alt="Star" className='h-24 self-end' />
             <h1 className='font-bold text-3xl sm:text-4xl md:text-6xl text-center sm:flex sm:flex-col '> <span> Witness the Power of</span><span> Mobile Fantasy Gaming!</span></h1>
             <div className='flex gap-12 sm:gap-16 mt-10 w-full overflow-auto px-4 sm:z-10 sm:relative no-scrollbar '>
@@ -30,7 +30,7 @@ const WitnessGaming: FC<P> = () => {
             </div>
 
             <Roll top>
-                <div className='sm:flex sm:justify-center sm:mt-80 sm:absolute sm:w-full h-full '>
+                <div className='sm:flex sm:justify-center md:top-40  sm:absolute sm:w-full h-full '>
                     <img src={Ball} alt="Ball" className=' sm:w-1/2 h-full ' />
                 </div>
             </Roll>
