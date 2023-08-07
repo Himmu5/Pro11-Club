@@ -10,7 +10,7 @@ type P = object
 const ElevateExperience: FC<P> = () => {
     return <div className='text-center md:min-h-screen flex flex-col relative sm:flex-row-reverse items-center sm:text-start py-5 px-2 sm:w-full'>
         <img src={Star1} alt="Star1" className=' self-start py-4 absolute' />
-        <div className='flex flex-col gap-5 sm:w-2/3 sm:h-full shadow-xl'>
+        <div className='flex flex-col gap-5 sm:w-2/3 sm:h-full '>
             <h1 className='flex flex-col w-full  '> <span className='text-3xl sm:text-4xl font-bold md:text-5xl '> Elevate Your </span><span className='text-2xl font-bold sm:text-5xl md:text-7xl w-full '> Cricket Fantasy Experience</span> </h1>
             <p className='md:text-2xl'>Take your cricket fantasy journey to new heights with Pro 11 Club, where excitement knows no bounds.</p>
         </div>
