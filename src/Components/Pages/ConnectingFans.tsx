@@ -16,7 +16,7 @@ const ConnectingFans: FC<P> = () => {
                 <div className='relative'></div>
                 <div className='sm:h-full'>
                     
-                    <Roll top right duration={5000}>
+                    <Roll top right duration={3000}>
                         <img src={BigBall} alt="Big Ball" />
                     </Roll>
                 </div>
