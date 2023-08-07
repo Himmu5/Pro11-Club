@@ -52,6 +52,13 @@ const ExperienceMapper: FC<P> = ({ ChangesPicture }) => {
             </div>
             <BiChevronRight />
         </div>
+        <div className='flex justify-between items-center px-3 rounded-md py-4 shadow-lg  border mr-5 cursor-pointer' onClick={() => ChangesPicture(5)}>
+            <div className='flex items-center gap-4'>
+                <img src={Chart} alt="person" />
+                <p>Lowest Entry Leagues</p>
+            </div>
+            <BiChevronRight />
+        </div>
 
     </div>
 }
