@@ -32,9 +32,9 @@ const Nav: FC<P> = () => {
           <h1 className="font-bold text-xl" children="Pro 11 Club" />
         </RouterLink>
 
-        <div className="sm:flex items-center gap-16 hidden font-bold text-primary text-xl cursor-pointer">
-          <Link to="Home" smooth duration={500}>Home</Link>
-          <Link to="Footer" smooth duration={500}>FAQs</Link>
+        <div className="sm:flex items-center gap-16 hidden font-bold text-primary text-xl ">
+          <Link to="Home" className="cursor-pointer" smooth duration={500}>Home</Link>
+          <Link to="Footer "className="cursor-pointer" smooth duration={500}>FAQs</Link>
           <RouterLink to="/About">About Us</RouterLink>
           <p>Contact Us</p>
         </div>
