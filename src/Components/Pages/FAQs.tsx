@@ -8,7 +8,7 @@ type P = object
 const FAQs: FC<P> = () => {
     return <div className='relative flex flex-col items-center  '>
         <Roll top duration={2 * 1000}>
-                    <img src={BigBall} alt="ball" className='absolute h-full self-center w-full top-40 ' />
+            <img src={BigBall} alt="ball" className='absolute h-full self-center w-full top-40 ' />
         </Roll>
         <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold'>FAQs</h1>
         <div className='relative z-20 flex overflow-scroll gap-4 w-full sm:h-[520px] px-2 py-16 no-scrollbar border-b-2 border-black'>
