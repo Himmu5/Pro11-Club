@@ -48,11 +48,11 @@ const Experience: FC<P> = () => {
             </div>
             <Fade top>
                 <div className='sm:w-2/3 sm:h-full'>
-                    {selectedOption === 1 && <Fade bottom ssrReveal><img src={EPhone} alt="EPhone" /></Fade>}
-                    {selectedOption === 2 && <Fade><img src={MobileChat} alt="MobileChat" /></Fade>}
-                    {selectedOption === 3 && <Fade><img src={MobileExpert} alt="MobileExpert" /></Fade>}
-                    {selectedOption === 4 && <Fade><img src={MobileReward} alt="MobileReward" /></Fade>}
-                    {selectedOption === 5 && <Fade><img src={MobileLeague} alt="Mobile League" /></Fade>}
+                    {selectedOption === 1 && <Fade top><img src={EPhone} alt="EPhone" /></Fade>}
+                    {selectedOption === 2 && <Fade top><img  src={MobileChat} alt="MobileChat" /></Fade>}
+                    {selectedOption === 3 && <Fade top><img src={MobileExpert} alt="MobileExpert" /></Fade>}
+                    {selectedOption === 4 && <Fade top><img src={MobileReward} alt="MobileReward" /></Fade>}
+                    {selectedOption === 5 && <Fade top  ><img src={MobileLeague} alt="Mobile League" /></Fade>}
                 </div>
             </Fade>
         </div>
